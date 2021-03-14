@@ -4,6 +4,7 @@ written by Guoren Zhong
 gzhong@eng.ucsd.edu
 Mar.15, 2021
 '''
+import numpy as np
 
 def Jaccard(s1, s2):
     '''
