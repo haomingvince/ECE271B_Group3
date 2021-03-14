@@ -13,9 +13,9 @@ from Predictions import *
 from Similarity import *
 
 if __name__ == '__main__':
-    
+
     # load data
-    data_dir = r'clean2.csv'
+    data_dir = r'../Data/clean2.csv'
     train_data, test_data = load_data(data_dir)
     labels = list(test_data['Score'])
 
