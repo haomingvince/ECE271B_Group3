@@ -12,8 +12,7 @@ from DataLoader import *
 from Predictions import *
 from Similarity import *
 
-#if __name__ == '__main__':
-if True:
+if __name__ == '__main__':
     
     # load data
     data_dir = r'clean2.csv'
