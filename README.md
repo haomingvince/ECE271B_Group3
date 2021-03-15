@@ -12,3 +12,11 @@ Recommendation system has been a popular topic in the past few decades due to th
 ## Implementations
 
 ## Data
+
+From Kaggle: "Amazon Fine Food Reviews"
+
+https://www.kaggle.com/snap/amazon-fine-food-reviews
+
+## Results
+
+Please forward to /ECE271B_Group3/results/recommendations.csv
