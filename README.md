@@ -6,10 +6,16 @@ Recommendation system has been a popular topic in the past few decades due to th
 
 ## Models
 ### Collaborative filter (CF)
+Two types of CF
 + User-based CF
 + Item-based CF
+With three similarity rules
++ Jaccard similarity
++ Cosine similarity
++ Pearson correlation coefficient
 
 ### Latent factor model
+Gradient descent
 
 ## Implementations
 
