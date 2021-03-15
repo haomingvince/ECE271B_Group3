@@ -6,24 +6,37 @@ Recommendation system has been a popular topic in the past few decades due to th
 
 ## Models
 ### Collaborative filter (CF)
-Two types of CF
-+ User-based CF
-+ Item-based CF
-With three similarity rules
-+ Jaccard similarity
-+ Cosine similarity
-+ Pearson correlation coefficient
+Two types of CF,
++ User-based CF,
++ Item-based CF.
+With three similarity rules,
++ Jaccard similarity,
++ Cosine similarity,
++ Pearson correlation coefficient.
 
 ### Latent factor model
-Gradient descent
+Gradient descent.
 
 ## Implementations
 
+### Data precessing and analysis
++ **notebook/Data_analysis.ipynb**: visualizing data,
++ **notebook/Data_preprocessing.ipynb**: preprocess data (delete columns and rows).
+
+### Collaborative filter
++ **src/DataLoader.py**: load the clean data,
++ **src/Predictions.py**: Make prediction,
++ **src/Similarity.py**: similarity rules used in this work,
++ **src/main.py**: main codes for CF.
+
+### Latent factor model
++ **notebook/Latent_factor_model.ipynb**: Perform latent factor model with gradient descent.
+
 ## Data
 
-From Kaggle: "Amazon Fine Food Reviews"
+From Kaggle: "Amazon Fine Food Reviews",
 
-https://www.kaggle.com/snap/amazon-fine-food-reviews
+https://www.kaggle.com/snap/amazon-fine-food-reviews.
 
 ## Results
 
